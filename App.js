@@ -6,6 +6,7 @@ import { LinhaDeAcoes } from './components/LinhaDeAcoes';
 import { ListaDeChips } from './components/ListaDeChips';
 import { GradeDePublicacoes } from './components/GradeDePublicacoes';
 import { BotaoSeguir } from './components/BotaoSeguir';
+import { ComponenteReescrito } from './components/ComponenteReescrito';
 
 export default function App() {
   return (
@@ -23,8 +24,12 @@ export default function App() {
         ]}
       /> */}
 
-      <BotaoSeguir />
-      
+      {/* <BotaoSeguir /> */}
+
+      {/* Reescrever componente */}
+
+      {/* <ComponenteReescrito /> */}
+
       <StatusBar style="auto" />
     </View>
   );
