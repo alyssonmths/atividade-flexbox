@@ -4,10 +4,10 @@ import "./global.css"
 import { IconeComTexto } from './components/IconeComTexto';
 import { LinhaDeAcoes } from './components/LinhaDeAcoes';
 import { ListaDeChips } from './components/ListaDeChips';
-import { GradeDePublicacoes } from './components/GradeDePublicacoes';
 import { BotaoSeguir } from './components/BotaoSeguir';
 import { ComponenteReescrito } from './components/ComponenteReescrito';
 import { TelaPerfil } from './components/desafio-final/TelaPerfil';
+import GradeDePublicacoes from './components/GradeDePublicacoes';
 
 export default function App() {
   return (
@@ -20,14 +20,11 @@ export default function App() {
 
       {/* <GradeDePublicacoes
         publicacoes={[
-          '#f94144', '#f3722c', '#f8961e', '#f9c74f', '#90be6d',
-          '#43aa8b', '#4d908e', '#577590', '#277da1', '#9b5de5',
+          '#F87171', '#FB923C', '#60A5FA', '#FACC15', '#4ADE80', '#A78BFA', '#F472B6', '#94A3B8', '#34D399'
         ]}
       /> */}
 
       {/* <BotaoSeguir /> */}
-
-      {/* Reescrever componente */}
 
       {/* <ComponenteReescrito /> */}
 
