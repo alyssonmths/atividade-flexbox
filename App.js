@@ -7,6 +7,7 @@ import { ListaDeChips } from './components/ListaDeChips';
 import { GradeDePublicacoes } from './components/GradeDePublicacoes';
 import { BotaoSeguir } from './components/BotaoSeguir';
 import { ComponenteReescrito } from './components/ComponenteReescrito';
+import { TelaPerfil } from './components/desafio-final/TelaPerfil';
 
 export default function App() {
   return (
@@ -29,6 +30,8 @@ export default function App() {
       {/* Reescrever componente */}
 
       {/* <ComponenteReescrito /> */}
+
+      <TelaPerfil />
 
       <StatusBar style="auto" />
     </View>

@@ -6,10 +6,10 @@ export const BotaoSeguir = () => {
 
     return (
         <Pressable
-            className={following ? 'p-5 border border-blue-400' : 'p-5 bg-blue-400'}
+            className={following ? 'w-screen p-5 border border-blue-400' : 'w-screen p-5 bg-blue-400'}
             onPress={() => setFollowing(prev => !prev)}
         >
-            <Text>{following ? 'Seguindo' : 'Seguir'}</Text>
+            <Text className="text-center">{following ? 'Seguindo' : 'Seguir'}</Text>
         </Pressable>
     )
 }
