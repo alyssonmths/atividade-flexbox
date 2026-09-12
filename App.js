@@ -1,11 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import "./global.css"
+import { IconeComTexto } from './components/IconeComTexto';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text className="text-blue-500">Open up App.js to start working on your app!</Text>
+      <IconeComTexto />
       <StatusBar style="auto" />
     </View>
   );
